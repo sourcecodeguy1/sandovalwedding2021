@@ -1,38 +1,19 @@
-.App {
-  text-align: center;
+body{
+  background-color: #ffdddd!important;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.geraldine_julio_img{
+  background-image: url(https://www.w3schools.com/w3images/wedding_couple2.jpg);
+  background-repeat: no-repeat;
+  /*margin: 32px 0;*/
+  height: 400px;
+  background-size: unset !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.image_content_wrapper{
+  max-width: 850px;
+  margin: auto;
+  padding: 15px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.couple_description{
+  padding-top: 15px;
 }
