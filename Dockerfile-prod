@@ -1,4 +1,4 @@
-FROM tiangolo/node-frontend:10 as build-stage
+FROM node:alpine as build
 
 WORKDIR /usr/src/app
 COPY package*.json ./
