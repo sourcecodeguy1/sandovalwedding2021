@@ -50,4 +50,4 @@ jobs:
             docker stop $(docker ps -a -q)
             docker login -u ${{ secrets.DOCKER_HUB_USERNAME }} -p ${{ secrets.DOCKER_HUB_TOKEN }}
             docker pull ${{ secrets.DOCKER_HUB_USERNAME }}/${{ secrets.DOCKER_REPO }}:prod
-            docker run -dit -p 80:80 ${{ secrets.DOCKER_HUB_USERNAME }}/${{ secrets.DOCKER_REPO }}:prod
+            docker run -dit -p 8080:80 ${{ secrets.DOCKER_HUB_USERNAME }}/${{ secrets.DOCKER_REPO }}:prod
