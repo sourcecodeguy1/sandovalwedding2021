@@ -14,6 +14,9 @@ EXPOSE 80 443
 #Make sites-available directory
 RUN mkdir "etc/nginx/sites-available"
 
+#Make sites-enabled directory
+RUN mkdir "etc/nginx/sites-enabled"
+
 # add nginx live config
 ADD config/sandovalwedding2021-live.com /etc/nginx/sites-available/sandovalwedding2021.com
 
